@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-sumikko",
+  "version": "0.0.1",
+  "description": "ESLint shareable config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivgtr/eslint-config-sumikko.git"
+  },
+  "keywords": [
+    "eslint",
+    "prettier"
+  ],
+  "author": "ivgtr <gear.1112t.o@gmail.com> (https://github.com/ivgtr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivgtr/eslint-config-sumikko/issues"
+  },
+  "homepage": "https://github.com/ivgtr/eslint-config-sumikko#readme",
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "prettier": "^2.1.2"
+  }
+}
