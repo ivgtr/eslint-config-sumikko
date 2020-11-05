@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/ivgtr/eslint-config-sumikko#readme",
   "devDependencies": {
-    "eslint": "^7.12.1",
-    "prettier": "^2.1.2"
+    "eslint": "7.12.1",
+    "prettier": "2.1.2"
   },
   "dependencies": {
     "@nuxtjs/eslint-config-typescript": "^4.0.0",
