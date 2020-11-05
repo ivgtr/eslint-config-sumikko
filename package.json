@@ -4,8 +4,7 @@
   "description": "ESLint shareable config",
   "main": "index.js",
   "scripts": {
-    "lint:next": "eslint -c ./test/next/.eslintrc ./test/next/*.tsx",
-    "lint:ts": "eslint -c ./test/ts/.eslintrc ./test/ts/*.ts"
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
