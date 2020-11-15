@@ -25,7 +25,7 @@
     "prettier": "2.1.2"
   },
   "dependencies": {
-    "@nuxtjs/eslint-config-typescript": "^4.0.0",
+    "@nuxtjs/eslint-config-typescript": "^5.0.0",
     "@typescript-eslint/eslint-plugin": "^4.6.1",
     "@typescript-eslint/parser": "^4.6.1",
     "@vue/eslint-config-prettier": "^6.0.0",
