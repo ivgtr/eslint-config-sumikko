@@ -11,7 +11,7 @@ module.exports = {
     warnOnUnsupportedTypeScriptVersion: false,
     sourceType: 'module',
     jsx: true,
-    project: 'tsconfig.json'
+    project: './tsconfig.json'
   },
   rules: {
     'import/extensions': [

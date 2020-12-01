@@ -1,27 +1,10 @@
 module.exports = {
-  parserOptions: {
-    parser: 'babel-eslint',
-    ecmaVersion: 2020,
-    sourceType: 'module',
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true
-    }
-  },
-  env: {
-    browser: true,
-    node: true,
-    es6: true
-  },
   extends: [
-    'plugin:eslint-comments/recommended',
-    'plugin:promise/recommended',
-    'plugin:import/warnings',
-    'plugin:prettier/recommended',
-    'eslint:recommended',
-    'eslint-config-airbnb-base',
-    'prettier',
-    './meta.js'
-  ],
-  plugins: ['prettier'],
-  rules: {}
+    "./lib/meta.js",
+    "./lib/es2015.js",
+    "./lib/es2016.js",
+    "./lib/es2017.js",
+    "./lib/es2018.js",
+    "./lib/es2019.js"
+  ]
 }
