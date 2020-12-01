@@ -6,7 +6,7 @@ module.exports = {
       files: ['*.ts', '*.tsx'],
       extends: [
         'plugin:@typescript-eslint/eslint-recommended',
-        './+module.js',
+        './module.js',
         'plugin:import/typescript'
       ],
       parser: require.resolve('@typescript-eslint/parser'),
