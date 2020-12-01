@@ -21,35 +21,16 @@
   },
   "homepage": "https://github.com/ivgtr/eslint-config-sumikko#readme",
   "devDependencies": {
-<<<<<<< Updated upstream
-    "eslint": "7.14.0",
-    "prettier": "2.2.1"
-  },
-  "dependencies": {
-    "@nuxtjs/eslint-config-typescript": "^5.0.0",
-    "@typescript-eslint/eslint-plugin": "^4.6.1",
-    "@typescript-eslint/parser": "^4.6.1",
-    "@vue/eslint-config-prettier": "^6.0.0",
-    "eslint-config-airbnb": "^18.2.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-config-prettier": "^6.15.0",
-    "eslint-import-resolver-webpack": "^0.13.0",
-=======
     "eslint": "7.12.1"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.1.1",
     "@typescript-eslint/parser": "^4.1.1",
     "eslint-config-prettier": "^6.11.0",
->>>>>>> Stashed changes
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsdoc": "^30.4.2",
     "eslint-plugin-node": "^11.1.0",
-<<<<<<< Updated upstream
-    "eslint-plugin-nuxt": "^2.0.0",
-=======
->>>>>>> Stashed changes
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-unicorn": "^21.0.0",
     "prettier": "^2.1.2"
