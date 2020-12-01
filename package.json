@@ -21,11 +21,11 @@
   },
   "homepage": "https://github.com/ivgtr/eslint-config-sumikko#readme",
   "devDependencies": {
-    "eslint": "7.12.1",
-    "prettier": "2.1.2"
+    "eslint": "7.14.0",
+    "prettier": "2.2.1"
   },
   "dependencies": {
-    "@nuxtjs/eslint-config-typescript": "^4.0.0",
+    "@nuxtjs/eslint-config-typescript": "^5.0.0",
     "@typescript-eslint/eslint-plugin": "^4.6.1",
     "@typescript-eslint/parser": "^4.6.1",
     "@vue/eslint-config-prettier": "^6.0.0",
@@ -37,7 +37,7 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-nuxt": "^1.0.0",
+    "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.21.5"
