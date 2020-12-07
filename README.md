@@ -14,7 +14,7 @@ npm install -D eslint-config-sumikko eslint
 
 ```json
 {
-  "extends": ["eslint-config-sumikko", "eslint-config-sumikko/node", "eslint-config-sumikko/pritter"]
+  "extends": ["eslint-config-sumikko", "eslint-config-sumikko/node", "eslint-config-sumikko/prettier"]
 }
 ```
 
@@ -22,7 +22,7 @@ npm install -D eslint-config-sumikko eslint
 
 ```json
 {
-  "extends": ["eslint-config-sumikko", "eslint-config-sumikko/node", "eslint-config-sumikko/ts", "eslint-config-sumikko/pritter"]
+  "extends": ["eslint-config-sumikko", "eslint-config-sumikko/node", "eslint-config-sumikko/ts", "eslint-config-sumikko/prettier"]
 }
 ```
 
