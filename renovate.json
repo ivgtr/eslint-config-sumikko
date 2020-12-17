@@ -3,9 +3,15 @@
   "timezone": "Asia/Tokyo",
   "schedule": ["every weekend"],
   "labels": ["renovate"],
+  "patch": {
+    "automerge": true
+  },
+  "pin": {
+    "automerge": true
+  },
   "packageRules": [
     {
-      "depTypeList": ["devDependencies"],
+      "depTypeList": ["patch", "pin"],
       "automerge": true
     }
   ]
