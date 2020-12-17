@@ -11,7 +11,7 @@
   },
   "packageRules": [
     {
-      "depTypeList": ["patch", "pin"],
+      "depTypeList": ["patch", "pin", "devDependencies"],
       "automerge": true
     }
   ]
