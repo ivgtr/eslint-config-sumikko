@@ -8,5 +8,11 @@ module.exports = {
     './prettier.js',
     'prettier/vue',
     './browser.js'
+  ],
+  overrides: [
+    {
+      files: ['*.vue'],
+      processor: 'vue/.vue'
+    }
   ]
 }
