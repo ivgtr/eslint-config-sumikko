@@ -26,5 +26,21 @@ npm install -D eslint-config-sumikko eslint
 }
 ```
 
+### Browser
+
+```json
+{
+  "extends": ["eslint-config-sumikko", "eslint-config-sumikko/node", "eslint-config-sumikko/ts", "eslint-config-sumikko/prettier", "eslint-config-sumikko/browser"]
+}
+```
+
+### Nuxt
+
+```json
+{
+  "extends": ["eslint-config-sumikko/nuxt"]
+}
+```
+
 ## License
 MIT ©[ivgtr](https://github.com/ivgtr)

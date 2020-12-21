@@ -24,6 +24,7 @@
     "eslint": "7.16.0"
   },
   "dependencies": {
+    "@nuxtjs/eslint-config-typescript": "^5.0.0",
     "@typescript-eslint/eslint-plugin": "^4.1.1",
     "@typescript-eslint/parser": "^4.1.1",
     "eslint-config-prettier": "^7.0.0",
@@ -31,6 +32,7 @@
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsdoc": "^30.4.2",
     "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-unicorn": "^24.0.0",
     "prettier": "^2.1.2"
