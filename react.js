@@ -17,11 +17,10 @@ module.exports = {
       version: 'detect'
     }
   },
-  plugins: ['react', 'react-hooks'],
+  plugins: ['react'],
   rules: {
     'react/jsx-filename-extension': [2, { extensions: ['.js', '.tsx'] }],
     'react/jsx-handler-names': 2,
-    'react-hooks/rules-of-hooks': 'error',
     'react/prop-types': 'off'
   }
 }
