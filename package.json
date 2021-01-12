@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sumikko",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "ESLint shareable config",
   "main": "index.js",
   "scripts": {
