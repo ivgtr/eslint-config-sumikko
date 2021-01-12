@@ -5,9 +5,9 @@ module.exports = {
     './index.js',
     '@nuxtjs/eslint-config-typescript',
     'plugin:nuxt/recommended',
+    './browser.js',
     './prettier.js',
-    'prettier/vue',
-    './browser.js'
+    'prettier/vue'
   ],
   overrides: [
     {

@@ -42,6 +42,14 @@ npm install -D eslint-config-sumikko eslint
 }
 ```
 
+### React/Next
+
+```json
+{
+  "extends": ["eslint-config-sumikko/react"]
+}
+```
+
 ## License
 MIT ©[ivgtr](https://github.com/ivgtr)
 
