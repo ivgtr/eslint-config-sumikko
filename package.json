@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/ivgtr/eslint-config-sumikko#readme",
   "devDependencies": {
-    "eslint": "7.17.0"
+    "eslint": "7.18.0"
   },
   "dependencies": {
     "@nuxtjs/eslint-config-typescript": "^5.0.0",
