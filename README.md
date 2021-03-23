@@ -38,7 +38,7 @@ npm install -D eslint-config-sumikko eslint
 
 ```json
 {
-  "extends": ["eslint-config-sumikko/nuxt"]
+  "extends": ["eslint-config-sumikko", "eslint-config-sumikko/node", "eslint-config-sumikko/nuxt", "eslint-config-sumikko/prettier"]
 }
 ```
 
@@ -46,7 +46,7 @@ npm install -D eslint-config-sumikko eslint
 
 ```json
 {
-  "extends": ["eslint-config-sumikko/react"]
+  "extends": ["eslint-config-sumikko", "eslint-config-sumikko/node", "eslint-config-sumikko/react", "eslint-config-sumikko/prettier"]
 }
 ```
 

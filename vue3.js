@@ -1,14 +1,7 @@
 'use strict'
 
 module.exports = {
-  extends: [
-    './index.js',
-    'plugin:vue/vue3-recommended',
-    '@vue/typescript',
-    './browser.js',
-    './prettier.js',
-    'prettier/vue'
-  ],
+  extends: ['plugin:vue/vue3-recommended', '@vue/typescript', './browser.js', './prettier.js'],
   overrides: [
     {
       files: ['*.vue'],

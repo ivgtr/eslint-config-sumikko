@@ -1,14 +1,7 @@
 'use strict'
 
 module.exports = {
-  extends: [
-    './index.js',
-    './ts.js',
-    'plugin:react/recommended',
-    './browser.js',
-    './prettier.js',
-    'prettier/react'
-  ],
+  extends: ['plugin:react/recommended', './browser.js'],
   parserOptions: {
     ecmaFeatures: { jsx: true }
   },
