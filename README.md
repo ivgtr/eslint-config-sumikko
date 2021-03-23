@@ -50,6 +50,14 @@ npm install -D eslint-config-sumikko eslint
 }
 ```
 
+ - +TypeScript
+
+```json
+{
+  "extends": ["eslint-config-sumikko", "eslint-config-sumikko/node", "eslint-config-sumikko/ts", "eslint-config-sumikko/react", "eslint-config-sumikko/prettier"]
+}
+```
+
 ## License
 MIT ©[ivgtr](https://github.com/ivgtr)
 
