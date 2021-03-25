@@ -1,12 +1,3 @@
 {
-  "extends": ["config:base"],
-  "timezone": "Asia/Tokyo",
-  "schedule": ["every weekend"],
-  "labels": ["renovate"],
-  "packageRules": [
-    {
-      "depTypeList": ["minor", "patch", "pin", "digest"],
-      "automerge": true
-    }
-  ]
+  "extends": ["@akameco"]
 }
