@@ -1,8 +1,5 @@
-const prettier = require('./.prettierrc.json')
+'use strict'
 
 module.exports = {
-  extends: ['plugin:prettier/recommended', 'prettier'],
-  rules: {
-    'prettier/prettier': ['error', prettier, { usePrettierrc: false }]
-  }
+  extends: ['prettier']
 }

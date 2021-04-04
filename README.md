@@ -4,41 +4,66 @@
 ## Install
 
 ```
-npm install -D eslint-config-sumikko eslint
+npm install -D eslint-config-sumikko eslint prettier
 ```
 
 ## Usage
 
 `.eslintrc`
-### NodeJS
+
+### Default Rule
 
 ```json
 {
-  "extends": ["eslint-config-sumikko", "eslint-config-sumikko/node", "eslint-config-sumikko/prettier"]
+  "extends": ["eslint-config-sumikko"]
 }
 ```
 
-### TypeScript
+- +prettier
 
 ```json
 {
-  "extends": ["eslint-config-sumikko", "eslint-config-sumikko/node", "eslint-config-sumikko/ts", "eslint-config-sumikko/prettier"]
+  "extends": [/* Rules */, "eslint-config-sumikko/prettier"]
+}
+
+```
+
+### +Node
+
+```json
+{
+  "extends": ["eslint-config-sumikko", "eslint-config-sumikko/node"]
 }
 ```
 
-### Browser
+### +TypeScript
 
 ```json
 {
-  "extends": ["eslint-config-sumikko", "eslint-config-sumikko/node", "eslint-config-sumikko/ts", "eslint-config-sumikko/browser", "eslint-config-sumikko/prettier"]
+  "extends": ["eslint-config-sumikko", "eslint-config-sumikko/node", "eslint-config-sumikko/ts"]
 }
 ```
 
-### Nuxt
+### +Browser
 
 ```json
 {
-  "extends": ["eslint-config-sumikko", "eslint-config-sumikko/node", "eslint-config-sumikko/nuxt", "eslint-config-sumikko/prettier"]
+  "extends": ["eslint-config-sumikko", "eslint-config-sumikko/browser"]
+}
+```
+
+### Vue3 (TypeScript)
+
+```json
+{
+  "extends": ["eslint-config-sumikko", "eslint-config-sumikko/vue3"]
+}
+```
+### Nuxt (TypeScript)
+
+```json
+{
+  "extends": ["eslint-config-sumikko", "eslint-config-sumikko/nuxt"]
 }
 ```
 
@@ -46,7 +71,7 @@ npm install -D eslint-config-sumikko eslint
 
 ```json
 {
-  "extends": ["eslint-config-sumikko", "eslint-config-sumikko/node", "eslint-config-sumikko/react", "eslint-config-sumikko/prettier"]
+  "extends": ["eslint-config-sumikko", "eslint-config-sumikko/react"]
 }
 ```
 
@@ -54,7 +79,7 @@ npm install -D eslint-config-sumikko eslint
 
 ```json
 {
-  "extends": ["eslint-config-sumikko", "eslint-config-sumikko/node", "eslint-config-sumikko/ts", "eslint-config-sumikko/react", "eslint-config-sumikko/prettier"]
+  "extends": ["eslint-config-sumikko", "eslint-config-sumikko/ts", "eslint-config-sumikko/react"]
 }
 ```
 

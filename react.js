@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = {
-  extends: ['plugin:react/recommended', './browser.js'],
+  extends: ['./node.js', './browser.js', 'plugin:react/recommended'],
   parserOptions: {
     ecmaFeatures: { jsx: true }
   },

@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = {
-  extends: ['@nuxtjs/eslint-config-typescript', 'plugin:nuxt/recommended', './browser.js'],
+  extends: ['./node.js', './browser.js', '@nuxtjs/eslint-config-typescript', 'plugin:nuxt/recommended'],
   overrides: [
     {
       files: ['*.vue'],
