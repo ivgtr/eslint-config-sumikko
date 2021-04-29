@@ -56,6 +56,9 @@ module.exports = {
           tryExtensions: ['.ts', '.tsx', '.js', '.jsx', '.json', '.node']
         },
         'import/resolver': {
+          node: {
+            extensions: ['.js', '.jsx', '.json', '.ts', '.tsx']
+          },
           typescript: {}
         }
       }
