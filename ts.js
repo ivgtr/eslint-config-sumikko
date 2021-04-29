@@ -46,11 +46,7 @@ module.exports = {
         // '@typescript-eslint/no-require-imports': 2,
         '@typescript-eslint/no-var-requires': 2,
         '@typescript-eslint/prefer-literal-enum-member': 2,
-        '@typescript-eslint/prefer-namespace-keyword': 2,
-        '@typescript-eslint/member-delimiter-style': 'off',
-        '@typescript-eslint/type-annotation-spacing': 'off',
-        '@typescript-eslint/func-call-spacing': 'off',
-        '@typescript-eslint/semi': 'off'
+        '@typescript-eslint/prefer-namespace-keyword': 2
       },
       settings: {
         jsdoc: {
@@ -58,6 +54,9 @@ module.exports = {
         },
         node: {
           tryExtensions: ['.ts', '.tsx', '.js', '.jsx', '.json', '.node']
+        },
+        'import/resolver': {
+          typescript: {}
         }
       }
     }

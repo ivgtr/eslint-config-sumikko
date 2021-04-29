@@ -5,7 +5,8 @@ module.exports = {
     './lib/es2016.js',
     './lib/es2017.js',
     './lib/es2018.js',
-    './lib/es2019.js'
+    './lib/es2019.js',
+    './lib/es2020.js'
   ],
   rules: {
     'no-console': 1,
