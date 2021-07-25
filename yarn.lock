@@ -217,12 +217,12 @@
     "@babel/helper-validator-identifier" "^7.14.5"
     to-fast-properties "^2.0.0"
 
-"@es-joy/jsdoccomment@^0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@es-joy/jsdoccomment/-/jsdoccomment-0.8.0.tgz#1add451f50f57597676ab85ee7bd0a273d7b7c43"
-  integrity sha512-Xd3GzYsL2sz2pcdtYt5Q0Wz1ol/o9Nt2UQL4nFPDcaEomvPmwjJsbjkKx1SKhl2h3TgwazNBLdcNr2m0UiGiFA==
+"@es-joy/jsdoccomment@0.9.0-alpha.6":
+  version "0.9.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@es-joy/jsdoccomment/-/jsdoccomment-0.9.0-alpha.6.tgz#f5737c907038692ad5dd25c091523bb5ad93f6c3"
+  integrity sha512-/eTjMezCcNne3VvKGle3kgz14PeOb7sQAX/OsV6a4jCmjzWgrAlQuISLcqgqUlI97BFWCNz7E0U9YyRm3ucyOA==
   dependencies:
-    comment-parser "^1.1.5"
+    comment-parser "1.1.6-beta.3"
     esquery "^1.4.0"
     jsdoc-type-pratt-parser "1.0.4"
 
@@ -608,10 +608,10 @@ colorette@^1.2.2:
   resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.2.2.tgz#cbcc79d5e99caea2dbf10eb3a26fd8b3e6acfa94"
   integrity sha512-MKGMzyfeuutC/ZJ1cba9NqcNpfeqMUcYmyF1ZFY6/Cn7CNSAKx6a+s48sqLqyAiZuaP2TcqMhoo+dlwFnVxT9w==
 
-comment-parser@1.1.5, comment-parser@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/comment-parser/-/comment-parser-1.1.5.tgz#453627ef8f67dbcec44e79a9bd5baa37f0bce9b2"
-  integrity sha512-RePCE4leIhBlmrqiYTvaqEeGYg7qpSl4etaIabKtdOQVi+mSTIBBklGUwIr79GXYnl3LpMwmDw4KeR2stNc6FA==
+comment-parser@1.1.6-beta.3:
+  version "1.1.6-beta.3"
+  resolved "https://registry.yarnpkg.com/comment-parser/-/comment-parser-1.1.6-beta.3.tgz#66df48fa6e8a10d9e31016613491b78075fe3065"
+  integrity sha512-LkPpVUx533rkxrkgphwWo0u6A3Vn9/fa8biHo2mrL6NUKPL6ubnF1P7NTm/M9i/rUvQ/mDxVqOVlmqy5uNUmVw==
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -652,6 +652,13 @@ debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
   integrity sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==
+  dependencies:
+    ms "2.1.2"
+
+debug@^4.3.2:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.2.tgz#f0a49c18ac8779e31d4a0c6029dfb76873c7428b"
+  integrity sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==
   dependencies:
     ms "2.1.2"
 
@@ -828,14 +835,14 @@ eslint-plugin-jest@^24.3.6:
   dependencies:
     "@typescript-eslint/experimental-utils" "^4.0.1"
 
-eslint-plugin-jsdoc@^35.0.0:
-  version "35.4.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-35.4.1.tgz#7fb2a8c9bd8e304ab1feee48aa34544df5f79839"
-  integrity sha512-lnpu2Bj+ta2eAqwCWnb6f3Xjc78TWKo/oMCpDH5NfpPhYnePNtGZJzoAMgU5uo9BQqmXJ8pql8aiodOhg82ofw==
+eslint-plugin-jsdoc@^36.0.0:
+  version "36.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-36.0.2.tgz#6348b0bca5f5c8baebdad31ad40e435d8cfad45d"
+  integrity sha512-cpb8IVYSrBqanUVeIO3Gfk5KD6PwM/7muZBgklCJP8q7ry1HuT4kriB+0EENkUFnVq0OCFmoo9F+edAnvTQvSw==
   dependencies:
-    "@es-joy/jsdoccomment" "^0.8.0"
-    comment-parser "1.1.5"
-    debug "^4.3.1"
+    "@es-joy/jsdoccomment" "0.9.0-alpha.6"
+    comment-parser "1.1.6-beta.3"
+    debug "^4.3.2"
     esquery "^1.4.0"
     jsdoc-type-pratt-parser "^1.0.4"
     lodash "^4.17.21"
